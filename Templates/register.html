@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="form-control">
+        <h2>Register with Us!</h2>
+    
+    
+    <form class="form">
+
+        <div>
+        <label>Username</label>
+        <input type="input" class="Username" placeholder="Enter your email">
+        </div>
+
+        <div>
+            <label>Email:</label>
+            <input type="email" class="email" placeholder="Enter your email">
+        </div>
+
+        <div>
+        <label>Password:</label>
+        <input type="password" class="password" placeholder="Enter your password">
+        </div>
+
+        
+        <button type="submit" >Register</button>
+    </form>
+</div>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+    font-family: 'Happy Monkey', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url("i2.jpeg"); /* Update the path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form Container */
+.form-control {
+    background-color: #c8c8f7e6; /* Slightly transparent */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 320px;
+}
+
+/* Input Fields */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5050;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+    </style>
+</body>
+</html>
